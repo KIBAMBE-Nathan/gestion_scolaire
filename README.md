@@ -1,15 +1,15 @@
-#  Système de Gestion Scolaire - API REST
+# Système de Gestion Scolaire - API REST
 
 Application Spring Boot pour la gestion d'un système scolaire avec API REST.
 
-##  Description
+## Description
 
 Cette application permet de gérer :
 - **Les étudiants** : CRUD complet
 - **Les cours** : CRUD complet
 - **Les inscriptions** : Inscription d'étudiants aux cours
 
-## 🛠 Technologies Utilisées
+##  Technologies Utilisées
 
 - **Spring Boot 3.5.7**
 - **Spring Data JPA**
@@ -44,7 +44,7 @@ gestion_scolaire/
 └── pom.xml
 ```
 
-## 🗄 Modèle de Données
+##  Modèle de Données
 
 ### Entité Student (Étudiant)
 - `id` (Long) - Clé primaire
@@ -66,7 +66,7 @@ gestion_scolaire/
 
 **Relation** : Many-to-Many entre Student et Course via Enrollment
 
-## ⚙ Configuration
+##  Configuration
 
 ### Base de Données MySQL
 
@@ -182,6 +182,7 @@ Content-Type: application/json
 ##  Auteur
 
 Projet réalisé dans le cadre du cours de Programmation Client/Serveur
+par KIBAMBE KABULULU Nathan (MAaster1 ISIG GOMA)
 
 ##  Documentation
 

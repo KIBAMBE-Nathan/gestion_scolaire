@@ -22,7 +22,7 @@
 
 ## Introduction
 
-Dans le cadre du cours de Programmation Client/Serveur, j'ai été chargé de développer un système de gestion scolaire  utilisant Spring Boot et une API REST. Ce projet m'a permis de mettre en pratique les concepts de développement backend, de gestion de bases de données relationnelles, et de création d'APIs RESTful.
+Dans le cadre du cours de Programmation Client/Serveur, j'ai été chargé de développer un système de gestion scolaire complet utilisant Spring Boot et une API REST. Ce projet m'a permis de mettre en pratique les concepts de développement backend, de gestion de bases de données relationnelles, et de création d'APIs RESTful.
 
 Ce document présente de manière détaillée toutes les étapes que j'ai suivies pour réaliser ce projet, depuis la création du projet jusqu'aux tests finaux avec Postman.
 

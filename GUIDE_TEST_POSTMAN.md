@@ -1,12 +1,12 @@
 # Guide de Test avec Postman - API Gestion Scolaire
 
-## 📋 Prérequis
+## Prérequis
 
 1. **MySQL** doit être démarré et accessible
 2. **Spring Boot** application doit être lancée (port 8080 par défaut)
 3. **Postman** installé
 
-## 🚀 Démarrer l'application
+##  Démarrer l'application
 
 ### Option 1 : Via IDE (IntelliJ, Eclipse, VS Code)
 - Ouvrez le projet dans votre IDE
@@ -23,9 +23,9 @@ L'application sera accessible sur : `http://localhost:8080`
 
 ---
 
-## 📝 Endpoints à Tester
+##  Endpoints à Tester
 
-### 🎓 **ÉTUDIANTS** (`/api/students`)
+###  **ÉTUDIANTS** (`/api/students`)
 
 #### 1. Créer un étudiant
 - **Méthode** : `POST`
@@ -100,7 +100,7 @@ L'application sera accessible sur : `http://localhost:8080`
 
 ---
 
-### 📚 **COURS** (`/api/courses`)
+###  **COURS** (`/api/courses`)
 
 #### 1. Créer un cours
 - **Méthode** : `POST`
@@ -154,7 +154,7 @@ L'application sera accessible sur : `http://localhost:8080`
 
 ---
 
-### 📝 **INSCRIPTIONS** (`/api/enrollments`)
+###  **INSCRIPTIONS** (`/api/enrollments`)
 
 #### 1. Inscrire un étudiant à un cours
 - **Méthode** : `POST`
@@ -189,7 +189,7 @@ L'application sera accessible sur : `http://localhost:8080`
 
 ---
 
-## 🧪 Scénario de Test Complet
+##  Scénario de Test Complet
 
 ### Étape 1 : Créer des étudiants
 1. POST `/api/students` avec :
@@ -222,7 +222,7 @@ L'application sera accessible sur : `http://localhost:8080`
 
 ---
 
-## ✅ Codes de Réponse HTTP
+##  Codes de Réponse HTTP
 
 - **200 OK** : Opération réussie (GET, PUT, DELETE)
 - **201 Created** : Ressource créée avec succès (POST)
@@ -231,7 +231,7 @@ L'application sera accessible sur : `http://localhost:8080`
 
 ---
 
-## 📸 Captures d'écran à Prendre
+##  Captures d'écran à Prendre
 
 Pour votre livrable, prenez des captures d'écran de Postman montrant :
 
@@ -246,7 +246,7 @@ Pour votre livrable, prenez des captures d'écran de Postman montrant :
 
 ---
 
-## 🔧 Dépannage
+##  Dépannage
 
 ### L'application ne démarre pas
 - Vérifiez que MySQL est démarré
